@@ -1,0 +1,171 @@
+header{
+    background: #35424a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    float:middle;
+}
+
+nav ul{
+    list-style-type: disc;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 10px;
+    background-color:#35424a;
+    display: inline;
+    margin: 0 15px;
+    position: relative;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #35424a;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li ul li{
+    display: block;
+    margin: 5px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #467;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section{
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.section1{
+    background-color: #add8e6;
+    color: #333;
+    margin: 140px;
+    text-align: center;
+}
+
+.section2{
+    background-color: #add8e6;
+    color: #333;
+}
+
+.section3{ 
+    background-color: #add8e6;
+    color: #333;
+}
+
+button{
+    background-color: #5cb85c;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.search-bar{
+    margin: 5px 0;
+    display: flex;
+}
+
+.search-input{
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+}
+
+h2{
+    text-align:center;
+}
+
+.left{
+    background-color: #add8e6;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    margin-left: 40px;
+}
+
+.main{
+    background-color:#add8e6;
+    padding: 20px;
+    float: left;
+    width: 40%;
+}
+
+.right {
+    background-color: #add8e6;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+
+textarea{
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
